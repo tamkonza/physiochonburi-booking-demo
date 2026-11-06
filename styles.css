@@ -83,6 +83,15 @@ button, input, select, textarea { color: inherit; }
 .hero-tags { gap: 12px; flex-wrap: wrap; color: #145f9f; font-size: 16px; }
 .hero-tags span { background: #ffffffb8; border: 1px solid #cfe6fa; border-radius: 999px; padding: 6px 12px; }
 .hero-art { opacity: .82; }
+.physio-illustration {
+  position: absolute;
+  width: 168px;
+  height: auto;
+  right: 62px;
+  top: 46%;
+  transform: translateY(-50%);
+  filter: drop-shadow(0 8px 10px rgba(45,119,185,.12));
+}
 .sun { background: #c3e4ff; }
 .circle-one { border-color: #a9d5f7; }
 .circle-two { border-color: #bee0fa; }
@@ -247,7 +256,10 @@ button, input, select, textarea { color: inherit; }
   .hero-copy { width: 100%; padding: 24px 20px; }
   .hero h1 { font-size: 32px; max-width: 590px; }
   .hero-copy > p { max-width: 520px; font-size: 17px; }
-  .hero-art { opacity: .22; width: 53%; }
+  .hero-art { opacity: .28; width: 53%; }
+  .physio-illustration { width: 142px; right: 10px; top: 43%; }
+  .art-caption { right: 9px; bottom: 9px; font-size: 11px; }
+  .art-caption strong { font-size: 12px; }
   .hero-tags { font-size: 14px; }
   .steps { margin: 18px auto 21px; gap: 2px; }
   .step { gap: 7px; }
