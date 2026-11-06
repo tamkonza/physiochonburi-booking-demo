@@ -1,0 +1,4 @@
+name = "physiochonburi-booking-demo"
+main = "cloudflare-worker.js"
+compatibility_date = "2026-11-06"
+workers_dev = true
